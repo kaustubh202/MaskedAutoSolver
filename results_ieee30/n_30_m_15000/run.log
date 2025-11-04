@@ -1,0 +1,2 @@
+[RUN] n=30 m=15000 at 2025-11-04T15:49:11.849378
+[RUN][CMD] /home/psquare_quantum/Desktop/ssl/bin/python check_new_fixed.py --num_views 30 --data_path data/m_15000.npz --outdir results_ieee30/n_30_m_15000 --seed 42 --epochs 1500 --batch_size 128 --mask_ratio 0.75 --embed_dim 128 --num_layers 6 --lr 0.0001 --weight_decay 1e-05 --patience 25 --memory_efficient --auto_adjust_batch

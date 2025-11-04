@@ -1,0 +1,18 @@
+2025-11-03 02:17:05,108 [INFO] Device: CUDA
+2025-11-03 02:17:05,108 [INFO] Auto-adjusted batch size: 256 -> 128 (for N=5)
+2025-11-03 02:17:05,110 [INFO] token_dim=5, num_buses=30, num_views=5
+2025-11-03 02:17:06,207 [INFO] Using GRADIENT ACCUMULATION with 2 steps
+2025-11-03 02:17:06,207 [INFO] --- Starting Pre-training ---
+2025-11-03 02:17:06,906 [INFO] Epoch 001/1500 | Train: 2.175414e+00 | Val MSE: 2.132489e+00 | Val MAE: 1.179269e+00
+2025-11-03 02:17:09,355 [INFO] Epoch 011/1500 | Train: 9.503659e-01 | Val MSE: 7.285783e-01 | Val MAE: 6.785489e-01
+2025-11-03 02:17:11,892 [INFO] Epoch 021/1500 | Train: 6.008323e-01 | Val MSE: 6.830699e-01 | Val MAE: 6.307482e-01
+2025-11-03 02:17:14,333 [INFO] Epoch 031/1500 | Train: 5.755663e-01 | Val MSE: 5.462667e-01 | Val MAE: 5.702792e-01
+2025-11-03 02:17:16,658 [INFO] Epoch 041/1500 | Train: 5.654305e-01 | Val MSE: 5.919336e-01 | Val MAE: 6.005404e-01
+2025-11-03 02:17:18,951 [INFO] Epoch 051/1500 | Train: 5.215376e-01 | Val MSE: 5.621411e-01 | Val MAE: 5.748404e-01
+2025-11-03 02:17:20,686 [INFO] Epoch 061/1500 | Train: 5.452505e-01 | Val MSE: 5.794275e-01 | Val MAE: 5.819803e-01
+2025-11-03 02:17:21,873 [INFO] Early stopping at epoch 68
+2025-11-03 02:17:21,873 [INFO] Total training time: 0m 15.67s
+2025-11-03 02:17:22,240 [INFO] Loss curve saved to results_ieee30/n_5_m_100/pretraining_loss_curve.png
+2025-11-03 02:17:22,240 [INFO] --- Starting Post-Training Analysis ---
+2025-11-03 02:17:23,926 [INFO] Analysis plots saved to results_ieee30/n_5_m_100/analysis_plots
+2025-11-03 02:17:23,926 [INFO] Metrics saved to results_ieee30/n_5_m_100/metrics.json

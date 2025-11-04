@@ -1,0 +1,28 @@
+2025-11-03 03:59:36,522 [INFO] Device: CUDA
+2025-11-03 03:59:36,522 [INFO] Auto-adjusted batch size: 256 -> 21 (for N=30)
+2025-11-03 03:59:36,523 [INFO] token_dim=5, num_buses=30, num_views=30
+2025-11-03 03:59:37,480 [INFO] Using SEQUENTIAL view processing (memory-efficient)
+2025-11-03 03:59:37,480 [INFO] --- Starting Pre-training ---
+2025-11-03 03:59:39,398 [INFO] Epoch 001/1500 | Train: 2.160506e+00 | Val MSE: 9.981542e-01 | Val MAE: 8.254093e-01
+2025-11-03 03:59:55,648 [INFO] Epoch 011/1500 | Train: 5.425115e-01 | Val MSE: 5.670010e-01 | Val MAE: 5.794353e-01
+2025-11-03 04:00:11,282 [INFO] Epoch 021/1500 | Train: 5.019220e-01 | Val MSE: 5.064642e-01 | Val MAE: 5.442193e-01
+2025-11-03 04:00:26,960 [INFO] Epoch 031/1500 | Train: 4.896491e-01 | Val MSE: 4.969449e-01 | Val MAE: 5.330242e-01
+2025-11-03 04:00:42,708 [INFO] Epoch 041/1500 | Train: 4.092550e-01 | Val MSE: 4.542500e-01 | Val MAE: 4.919808e-01
+2025-11-03 04:00:58,108 [INFO] Epoch 051/1500 | Train: 3.759994e-01 | Val MSE: 4.161342e-01 | Val MAE: 4.726551e-01
+2025-11-03 04:01:14,207 [INFO] Epoch 061/1500 | Train: 3.549759e-01 | Val MSE: 3.996106e-01 | Val MAE: 4.575047e-01
+2025-11-03 04:01:29,821 [INFO] Epoch 071/1500 | Train: 3.411615e-01 | Val MSE: 4.019089e-01 | Val MAE: 4.610119e-01
+2025-11-03 04:01:46,006 [INFO] Epoch 081/1500 | Train: 3.257296e-01 | Val MSE: 3.808077e-01 | Val MAE: 4.416236e-01
+2025-11-03 04:02:01,304 [INFO] Epoch 091/1500 | Train: 3.118409e-01 | Val MSE: 3.891879e-01 | Val MAE: 4.436926e-01
+2025-11-03 04:02:17,065 [INFO] Epoch 101/1500 | Train: 3.083035e-01 | Val MSE: 3.576536e-01 | Val MAE: 4.185352e-01
+2025-11-03 04:02:33,134 [INFO] Epoch 111/1500 | Train: 2.963278e-01 | Val MSE: 3.542501e-01 | Val MAE: 4.143076e-01
+2025-11-03 04:02:48,729 [INFO] Epoch 121/1500 | Train: 2.842991e-01 | Val MSE: 3.452932e-01 | Val MAE: 4.051651e-01
+2025-11-03 04:03:04,819 [INFO] Epoch 131/1500 | Train: 2.802600e-01 | Val MSE: 3.478064e-01 | Val MAE: 4.035846e-01
+2025-11-03 04:03:20,159 [INFO] Epoch 141/1500 | Train: 2.689094e-01 | Val MSE: 3.517488e-01 | Val MAE: 4.094528e-01
+2025-11-03 04:03:36,294 [INFO] Epoch 151/1500 | Train: 2.704461e-01 | Val MSE: 3.245728e-01 | Val MAE: 3.866793e-01
+2025-11-03 04:03:51,769 [INFO] Epoch 161/1500 | Train: 2.628607e-01 | Val MSE: 3.430879e-01 | Val MAE: 3.946163e-01
+2025-11-03 04:04:01,406 [INFO] Early stopping at epoch 167
+2025-11-03 04:04:01,406 [INFO] Total training time: 4m 23.93s
+2025-11-03 04:04:01,739 [INFO] Loss curve saved to results_ieee30/n_30_m_100/pretraining_loss_curve.png
+2025-11-03 04:04:01,740 [INFO] --- Starting Post-Training Analysis ---
+2025-11-03 04:04:03,509 [INFO] Analysis plots saved to results_ieee30/n_30_m_100/analysis_plots
+2025-11-03 04:04:03,510 [INFO] Metrics saved to results_ieee30/n_30_m_100/metrics.json

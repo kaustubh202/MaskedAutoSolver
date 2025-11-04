@@ -1,0 +1,32 @@
+{
+  "Total experiments": 55,
+  "Converged experiments": 55,
+  "N values tested": [
+    1,
+    2,
+    4,
+    5,
+    8,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50
+  ],
+  "M values tested": [
+    100,
+    200,
+    500,
+    1000,
+    2000
+  ],
+  "Best overall MSE": 0.0055054461897322635,
+  "Best (N, M)": [
+    50,
+    2000
+  ],
+  "Median MSE": 0.07920076100513188,
+  "Mean training time (min)": 19.881787887414298,
+  "Avg MSE improvement (%) from min to max N": 82.37303405548465
+}

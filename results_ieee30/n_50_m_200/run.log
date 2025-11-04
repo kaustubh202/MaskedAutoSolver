@@ -1,0 +1,40 @@
+[RUN] n=50 m=200 at 2025-11-03T06:29:56.501822
+[RUN][CMD] /home/psquare_quantum/Desktop/ssl/bin/python check_new_fixed.py --num_views 50 --data_path data/m_200.npz --outdir results_ieee30/n_50_m_200 --seed 42 --epochs 1500 --batch_size 256 --mask_ratio 0.75 --embed_dim 128 --num_layers 6 --lr 0.0001 --weight_decay 1e-05 --patience 25 --memory_efficient --auto_adjust_batch
+2025-11-03 06:29:57,548 [INFO] Device: CUDA
+2025-11-03 06:29:57,548 [INFO] Auto-adjusted batch size: 256 -> 12 (for N=50)
+2025-11-03 06:29:57,551 [INFO] token_dim=5, num_buses=30, num_views=50
+/home/psquare_quantum/Desktop/ssl/lib/python3.10/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+2025-11-03 06:29:58,364 [INFO] Using SEQUENTIAL view processing (memory-efficient)
+2025-11-03 06:29:58,364 [INFO] --- Starting Pre-training ---
+2025-11-03 06:30:04,228 [INFO] Epoch 001/1500 | Train: 1.294055e+00 | Val MSE: 7.119093e-01 | Val MAE: 6.623887e-01
+2025-11-03 06:30:59,783 [INFO] Epoch 011/1500 | Train: 4.879279e-01 | Val MSE: 3.844997e-01 | Val MAE: 4.650853e-01
+2025-11-03 06:31:55,676 [INFO] Epoch 021/1500 | Train: 3.943389e-01 | Val MSE: 3.287897e-01 | Val MAE: 4.009957e-01
+2025-11-03 06:32:52,536 [INFO] Epoch 031/1500 | Train: 3.492002e-01 | Val MSE: 2.970402e-01 | Val MAE: 3.783806e-01
+2025-11-03 06:33:48,979 [INFO] Epoch 041/1500 | Train: 3.008774e-01 | Val MSE: 2.639124e-01 | Val MAE: 3.451082e-01
+2025-11-03 06:34:43,607 [INFO] Epoch 051/1500 | Train: 2.462989e-01 | Val MSE: 1.933314e-01 | Val MAE: 2.893971e-01
+2025-11-03 06:35:39,738 [INFO] Epoch 061/1500 | Train: 2.121739e-01 | Val MSE: 1.694630e-01 | Val MAE: 2.657073e-01
+2025-11-03 06:36:35,994 [INFO] Epoch 071/1500 | Train: 1.802206e-01 | Val MSE: 1.582254e-01 | Val MAE: 2.567644e-01
+2025-11-03 06:37:32,501 [INFO] Epoch 081/1500 | Train: 1.426541e-01 | Val MSE: 1.243180e-01 | Val MAE: 2.391062e-01
+2025-11-03 06:38:28,868 [INFO] Epoch 091/1500 | Train: 1.332686e-01 | Val MSE: 1.237946e-01 | Val MAE: 2.258237e-01
+2025-11-03 06:39:23,621 [INFO] Epoch 101/1500 | Train: 1.139651e-01 | Val MSE: 1.126503e-01 | Val MAE: 2.193720e-01
+2025-11-03 06:40:20,547 [INFO] Epoch 111/1500 | Train: 1.007880e-01 | Val MSE: 1.082572e-01 | Val MAE: 1.929794e-01
+2025-11-03 06:41:16,776 [INFO] Epoch 121/1500 | Train: 9.388492e-02 | Val MSE: 9.944134e-02 | Val MAE: 1.967717e-01
+2025-11-03 06:42:13,025 [INFO] Epoch 131/1500 | Train: 7.949546e-02 | Val MSE: 9.123012e-02 | Val MAE: 1.754365e-01
+2025-11-03 06:43:09,496 [INFO] Epoch 141/1500 | Train: 7.208389e-02 | Val MSE: 1.029895e-01 | Val MAE: 1.854980e-01
+2025-11-03 06:44:05,528 [INFO] Epoch 151/1500 | Train: 6.521961e-02 | Val MSE: 8.937724e-02 | Val MAE: 1.724971e-01
+2025-11-03 06:45:01,292 [INFO] Epoch 161/1500 | Train: 6.296838e-02 | Val MSE: 9.697964e-02 | Val MAE: 1.731130e-01
+2025-11-03 06:45:58,588 [INFO] Epoch 171/1500 | Train: 6.202761e-02 | Val MSE: 8.536956e-02 | Val MAE: 1.649396e-01
+2025-11-03 06:46:54,521 [INFO] Epoch 181/1500 | Train: 6.007930e-02 | Val MSE: 7.547089e-02 | Val MAE: 1.597161e-01
+2025-11-03 06:47:50,329 [INFO] Epoch 191/1500 | Train: 6.091213e-02 | Val MSE: 8.362304e-02 | Val MAE: 1.616397e-01
+2025-11-03 06:48:46,532 [INFO] Epoch 201/1500 | Train: 5.934653e-02 | Val MSE: 8.355456e-02 | Val MAE: 1.633914e-01
+2025-11-03 06:49:13,795 [INFO] Early stopping at epoch 206
+2025-11-03 06:49:13,795 [INFO] Total training time: 19m 15.43s
+2025-11-03 06:49:14,139 [INFO] Loss curve saved to results_ieee30/n_50_m_200/pretraining_loss_curve.png
+2025-11-03 06:49:14,139 [INFO] --- Starting Post-Training Analysis ---
+/home/psquare_quantum/Desktop/ssl/lib/python3.10/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+2025-11-03 06:49:15,819 [INFO] Analysis plots saved to results_ieee30/n_50_m_200/analysis_plots
+2025-11-03 06:49:15,820 [INFO] Metrics saved to results_ieee30/n_50_m_200/metrics.json
+
+[RUN] rc=0, elapsed=1159.78s

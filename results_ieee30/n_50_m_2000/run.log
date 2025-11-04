@@ -1,0 +1,46 @@
+[RUN] n=50 m=2000 at 2025-11-03T05:39:00.568237
+[RUN][CMD] /home/psquare_quantum/Desktop/ssl/bin/python check_new_fixed.py --num_views 50 --data_path data/m_2000.npz --outdir results_ieee30/n_50_m_2000 --seed 42 --epochs 1500 --batch_size 256 --mask_ratio 0.75 --embed_dim 128 --num_layers 6 --lr 0.0001 --weight_decay 1e-05 --patience 25 --memory_efficient --auto_adjust_batch
+2025-11-03 05:39:01,682 [INFO] Device: CUDA
+2025-11-03 05:39:01,682 [INFO] Auto-adjusted batch size: 256 -> 12 (for N=50)
+2025-11-03 05:39:01,697 [INFO] token_dim=5, num_buses=30, num_views=50
+/home/psquare_quantum/Desktop/ssl/lib/python3.10/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+2025-11-03 05:39:02,329 [INFO] Using SEQUENTIAL view processing (memory-efficient)
+2025-11-03 05:39:02,329 [INFO] --- Starting Pre-training ---
+2025-11-03 05:39:41,260 [INFO] Epoch 001/1500 | Train: 6.535917e-01 | Val MSE: 5.298218e-01 | Val MAE: 5.430456e-01
+2025-11-03 05:46:35,161 [INFO] Epoch 011/1500 | Train: 1.376983e-01 | Val MSE: 1.135457e-01 | Val MAE: 1.969503e-01
+2025-11-03 05:57:15,882 [INFO] Epoch 021/1500 | Train: 7.077686e-02 | Val MSE: 5.441693e-02 | Val MAE: 1.358305e-01
+2025-11-03 06:08:48,537 [INFO] Epoch 031/1500 | Train: 4.827388e-02 | Val MSE: 3.112732e-02 | Val MAE: 9.832374e-02
+2025-11-03 06:20:21,172 [INFO] Epoch 041/1500 | Train: 3.884830e-02 | Val MSE: 2.463081e-02 | Val MAE: 8.770422e-02
+2025-11-03 06:31:52,733 [INFO] Epoch 051/1500 | Train: 3.398571e-02 | Val MSE: 2.319448e-02 | Val MAE: 8.332185e-02
+2025-11-03 06:43:17,102 [INFO] Epoch 061/1500 | Train: 2.946955e-02 | Val MSE: 1.719760e-02 | Val MAE: 7.017581e-02
+2025-11-03 06:54:40,462 [INFO] Epoch 071/1500 | Train: 2.635493e-02 | Val MSE: 1.525182e-02 | Val MAE: 6.277254e-02
+2025-11-03 07:03:23,174 [INFO] Epoch 081/1500 | Train: 2.426833e-02 | Val MSE: 1.547850e-02 | Val MAE: 6.424498e-02
+2025-11-03 07:09:35,373 [INFO] Epoch 091/1500 | Train: 2.273299e-02 | Val MSE: 1.270593e-02 | Val MAE: 5.825262e-02
+2025-11-03 07:15:48,105 [INFO] Epoch 101/1500 | Train: 2.086897e-02 | Val MSE: 1.202149e-02 | Val MAE: 5.712918e-02
+2025-11-03 07:22:01,124 [INFO] Epoch 111/1500 | Train: 1.826130e-02 | Val MSE: 9.594425e-03 | Val MAE: 4.786013e-02
+2025-11-03 07:28:15,341 [INFO] Epoch 121/1500 | Train: 1.735515e-02 | Val MSE: 8.673900e-03 | Val MAE: 4.755489e-02
+2025-11-03 07:34:27,767 [INFO] Epoch 131/1500 | Train: 1.708852e-02 | Val MSE: 8.807672e-03 | Val MAE: 4.487541e-02
+2025-11-03 07:40:40,629 [INFO] Epoch 141/1500 | Train: 1.567445e-02 | Val MSE: 7.547842e-03 | Val MAE: 4.345198e-02
+2025-11-03 07:46:25,711 [INFO] Epoch 151/1500 | Train: 1.519067e-02 | Val MSE: 7.741795e-03 | Val MAE: 4.198160e-02
+2025-11-03 07:51:49,171 [INFO] Epoch 161/1500 | Train: 1.481124e-02 | Val MSE: 7.092111e-03 | Val MAE: 4.108439e-02
+2025-11-03 07:57:12,552 [INFO] Epoch 171/1500 | Train: 1.417000e-02 | Val MSE: 6.646289e-03 | Val MAE: 3.815752e-02
+2025-11-03 08:02:38,841 [INFO] Epoch 181/1500 | Train: 1.394027e-02 | Val MSE: 6.924898e-03 | Val MAE: 3.882149e-02
+2025-11-03 08:08:07,280 [INFO] Epoch 191/1500 | Train: 1.379690e-02 | Val MSE: 6.677793e-03 | Val MAE: 3.785592e-02
+2025-11-03 08:13:34,710 [INFO] Epoch 201/1500 | Train: 1.345598e-02 | Val MSE: 6.184229e-03 | Val MAE: 3.699664e-02
+2025-11-03 08:18:59,252 [INFO] Epoch 211/1500 | Train: 1.340083e-02 | Val MSE: 6.366192e-03 | Val MAE: 3.766594e-02
+2025-11-03 08:24:25,659 [INFO] Epoch 221/1500 | Train: 1.341932e-02 | Val MSE: 6.009417e-03 | Val MAE: 3.652178e-02
+2025-11-03 08:29:50,700 [INFO] Epoch 231/1500 | Train: 1.315600e-02 | Val MSE: 6.454485e-03 | Val MAE: 3.748105e-02
+2025-11-03 08:35:19,231 [INFO] Epoch 241/1500 | Train: 1.316113e-02 | Val MSE: 5.910001e-03 | Val MAE: 3.643169e-02
+2025-11-03 08:40:43,114 [INFO] Epoch 251/1500 | Train: 1.309724e-02 | Val MSE: 6.354276e-03 | Val MAE: 3.653320e-02
+2025-11-03 08:46:12,794 [INFO] Epoch 261/1500 | Train: 1.280561e-02 | Val MSE: 5.584594e-03 | Val MAE: 3.535999e-02
+2025-11-03 08:47:18,637 [INFO] Early stopping at epoch 263
+2025-11-03 08:47:18,637 [INFO] Total training time: 188m 16.31s
+2025-11-03 08:47:18,980 [INFO] Loss curve saved to results_ieee30/n_50_m_2000/pretraining_loss_curve.png
+2025-11-03 08:47:18,980 [INFO] --- Starting Post-Training Analysis ---
+/home/psquare_quantum/Desktop/ssl/lib/python3.10/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+2025-11-03 08:47:20,067 [INFO] Analysis plots saved to results_ieee30/n_50_m_2000/analysis_plots
+2025-11-03 08:47:20,067 [INFO] Metrics saved to results_ieee30/n_50_m_2000/metrics.json
+
+[RUN] rc=0, elapsed=11299.94s

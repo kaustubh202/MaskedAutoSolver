@@ -1,0 +1,24 @@
+2025-11-03 01:42:52,742 [INFO] Device: CUDA
+2025-11-03 01:42:52,745 [INFO] token_dim=5, num_buses=30, num_views=1
+2025-11-03 01:42:53,332 [INFO] Using GRADIENT ACCUMULATION with 2 steps
+2025-11-03 01:42:53,332 [INFO] --- Starting Pre-training ---
+2025-11-03 01:42:53,689 [INFO] Epoch 001/1500 | Train: 2.163749e+00 | Val MSE: 2.057704e+00 | Val MAE: 1.195355e+00
+2025-11-03 01:42:54,109 [INFO] Epoch 011/1500 | Train: 2.036822e+00 | Val MSE: 1.812753e+00 | Val MAE: 1.107713e+00
+2025-11-03 01:42:54,377 [INFO] Epoch 021/1500 | Train: 7.442195e-01 | Val MSE: 7.259933e-01 | Val MAE: 6.713755e-01
+2025-11-03 01:42:54,869 [INFO] Epoch 031/1500 | Train: 6.429280e-01 | Val MSE: 4.926277e-01 | Val MAE: 5.439898e-01
+2025-11-03 01:42:55,200 [INFO] Epoch 041/1500 | Train: 5.980847e-01 | Val MSE: 4.870728e-01 | Val MAE: 5.427356e-01
+2025-11-03 01:42:55,414 [INFO] Epoch 051/1500 | Train: 5.687435e-01 | Val MSE: 4.547835e-01 | Val MAE: 5.207170e-01
+2025-11-03 01:42:55,694 [INFO] Epoch 061/1500 | Train: 5.520090e-01 | Val MSE: 4.899792e-01 | Val MAE: 5.406822e-01
+2025-11-03 01:42:56,041 [INFO] Epoch 071/1500 | Train: 5.544007e-01 | Val MSE: 4.571486e-01 | Val MAE: 5.164646e-01
+2025-11-03 01:42:56,292 [INFO] Epoch 081/1500 | Train: 5.426289e-01 | Val MSE: 4.523117e-01 | Val MAE: 5.154570e-01
+2025-11-03 01:42:56,590 [INFO] Epoch 091/1500 | Train: 5.286116e-01 | Val MSE: 4.456055e-01 | Val MAE: 5.096521e-01
+2025-11-03 01:42:56,808 [INFO] Epoch 101/1500 | Train: 5.323381e-01 | Val MSE: 4.124593e-01 | Val MAE: 4.903899e-01
+2025-11-03 01:42:57,152 [INFO] Epoch 111/1500 | Train: 5.227350e-01 | Val MSE: 4.480645e-01 | Val MAE: 5.093802e-01
+2025-11-03 01:42:57,419 [INFO] Epoch 121/1500 | Train: 5.091276e-01 | Val MSE: 4.049409e-01 | Val MAE: 4.878201e-01
+2025-11-03 01:42:57,631 [INFO] Epoch 131/1500 | Train: 5.103712e-01 | Val MSE: 4.103028e-01 | Val MAE: 4.837853e-01
+2025-11-03 01:42:57,822 [INFO] Early stopping at epoch 140
+2025-11-03 01:42:57,822 [INFO] Total training time: 0m 4.49s
+2025-11-03 01:42:58,168 [INFO] Loss curve saved to results_ieee30/n_1_m_200/pretraining_loss_curve.png
+2025-11-03 01:42:58,168 [INFO] --- Starting Post-Training Analysis ---
+2025-11-03 01:42:58,939 [INFO] Analysis plots saved to results_ieee30/n_1_m_200/analysis_plots
+2025-11-03 01:42:58,939 [INFO] Metrics saved to results_ieee30/n_1_m_200/metrics.json

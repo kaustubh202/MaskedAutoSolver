@@ -207,7 +207,7 @@ def generate_data(num_samples, output_path, seed=None, angle_radians=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate power flow dataset for IEEE-30 bus system.")
-    parser.add_argument("--num_samples", type=int, default=10000, help="Number of samples to generate.")
+    parser.add_argument("--num_samples", type=int, default=15000, help="Number of samples to generate.")
     parser.add_argument("--seed", type=int, default=41, help="Random seed for reproducibility.")
     parser.add_argument("--angle_radians", action="store_true", help="Store voltage angles in radians.")
     parser.add_argument("--output_path", type=str, default="dataset_ieee30.npz", help="Output path for dataset file.")
