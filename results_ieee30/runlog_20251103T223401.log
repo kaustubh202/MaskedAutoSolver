@@ -7445,3 +7445,20 @@ Dataset shape: (5000, 30, 4)
 [DATA] exists, skipping: data/m_5000.npz
 {"n": 20, "m": 5000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_20_m_5000", "dataset_sha256": "1295c131fe8af0997132907c5d6eafe9f7829843d3358087468f5f37684568eb", "elapsed_sec": 3974.807053565979, "timestamp": "2025-11-04T15:49:11.838591"}
 [DATA] exists, skipping: data/m_15000.npz
+{"n": 30, "m": 15000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_30_m_15000", "dataset_sha256": "d3ac65702207274763029b285bd35d11250c46e67313fdba6ac5834584967456", "elapsed_sec": 22120.15362405777, "timestamp": "2025-11-04T21:57:52.003140"}
+[DATA] exists, skipping: data/m_10000.npz
+{"n": 30, "m": 10000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_30_m_10000", "dataset_sha256": "5429dcdcbd7671fa1ab1ba147a793a6dd7962a481b3b274b6282677ca6f844cd", "elapsed_sec": 14325.221679925919, "timestamp": "2025-11-05T01:56:37.232363"}
+[DATA] exists, skipping: data/m_5000.npz
+{"n": 30, "m": 5000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_30_m_5000", "dataset_sha256": "1295c131fe8af0997132907c5d6eafe9f7829843d3358087468f5f37684568eb", "elapsed_sec": 7033.6374168396, "timestamp": "2025-11-05T03:53:50.873708"}
+[DATA] exists, skipping: data/m_15000.npz
+{"n": 40, "m": 15000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_40_m_15000", "dataset_sha256": "d3ac65702207274763029b285bd35d11250c46e67313fdba6ac5834584967456", "elapsed_sec": 50045.20582151413, "timestamp": "2025-11-05T17:47:56.090317"}
+[DATA] exists, skipping: data/m_10000.npz
+{"n": 40, "m": 10000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_40_m_10000", "dataset_sha256": "5429dcdcbd7671fa1ab1ba147a793a6dd7962a481b3b274b6282677ca6f844cd", "elapsed_sec": 22721.371656656265, "timestamp": "2025-11-06T00:06:37.469852"}
+[DATA] exists, skipping: data/m_5000.npz
+{"n": 40, "m": 5000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_40_m_5000", "dataset_sha256": "1295c131fe8af0997132907c5d6eafe9f7829843d3358087468f5f37684568eb", "elapsed_sec": 13608.662205696106, "timestamp": "2025-11-06T03:53:26.138096"}
+[DATA] exists, skipping: data/m_15000.npz
+{"n": 50, "m": 15000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_50_m_15000", "dataset_sha256": "d3ac65702207274763029b285bd35d11250c46e67313fdba6ac5834584967456", "elapsed_sec": 73680.35346150398, "timestamp": "2025-11-07T00:21:26.500155"}
+[DATA] exists, skipping: data/m_10000.npz
+{"n": 50, "m": 10000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_50_m_10000", "dataset_sha256": "5429dcdcbd7671fa1ab1ba147a793a6dd7962a481b3b274b6282677ca6f844cd", "elapsed_sec": 44016.597524642944, "timestamp": "2025-11-07T12:35:03.105715"}
+[DATA] exists, skipping: data/m_5000.npz
+{"n": 50, "m": 5000, "status": "ok", "rc": 0, "outdir": "results_ieee30/n_50_m_5000", "dataset_sha256": "1295c131fe8af0997132907c5d6eafe9f7829843d3358087468f5f37684568eb", "elapsed_sec": 24506.558225870132, "timestamp": "2025-11-07T19:23:29.668757"}
